@@ -37,7 +37,18 @@ After restarting Eclipse, navigate to Project Explorer view or the New menu and 
 - Wait for the server to start. You should see logs indicating that the server has started.
 - Open a browser and test the application.
 
+## Spring MVC:
+- Model: A model can be an object or collection of objects which basically contains the data of the application.
+- View: A view is used for displaying the information to the user in a specific format. Spring supports various technologies like freemarker, velocity, and thymeleaf.
+- Controller: It contains the logical part of the application. @Controller annotation is used to mark that class as controller.
+- Front Controller: It remains responsible for managing the flow of the web application. DispatcherServlet acts as a front controller in Spring MVC.
+
 ## Spring Concepts in the Project:
+- XML-based configuration of Spring MVC components
+- XML auto scanning
+- Configuration of InternalResourceViewResolver to resolve view names to JSP files
+- Configuration of the DispatcherServlet in the web.xml
+- The servlet name and the spring configuration file name should match, and it should follow YourServletName-servlet.xml, Here we have spring and spring-servlet.xml
 
 Happy Coding!
 
